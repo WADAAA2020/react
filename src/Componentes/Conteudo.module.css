@@ -1,0 +1,13 @@
+.container {
+    height: 80vh;
+    background-color: #d1d1ec;
+    width: 100vw;
+    padding: 30px;
+}
+
+.titulo {
+    color: #0c005c;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+}

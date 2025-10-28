@@ -1,0 +1,11 @@
+.cabecalho {
+    background-color: #0c005c;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+}
+
+.titulo {
+    color: #d1d1ec;
+    margin-left: 20px;
+}
