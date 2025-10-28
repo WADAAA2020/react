@@ -1,7 +1,6 @@
 .barraNavegacao {
     height: 100px;
     background-color: #2e355a;
-    color: #d1d1ec;
     font-weight: bold;
     padding: 30px;
 
@@ -13,4 +12,9 @@ ul {
     flex-direction: row;
     gap: 15px;
     margin-left: 50px;
+    text-decoration: none;
+}
+
+a {
+    color: #d1d1ec;
 }
