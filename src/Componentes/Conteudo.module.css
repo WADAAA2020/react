@@ -1,13 +1,32 @@
 .container {
-    height: 80vh;
+    height: 100%;
     background-color: #d1d1ec;
     width: 100vw;
-    padding: 30px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .titulo {
     color: #0c005c;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.capa {
+    height: 500px;
+    width: auto;
+    margin-bottom: 30px;
+}
+
+.resumo {
+    font-size: 18px;
+    width: 50%;
+    display: flex;
+    text-align: justify;
 }
