@@ -4,6 +4,10 @@ export function Autor() {
     return (
         <main className={estilo.container}>
             <h1>Sir Arthur Conan Doyle</h1>
+
+            <p>
+                
+            </p>
         </main>
     )
 }
