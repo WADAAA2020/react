@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&family=Quicksand:wght@300..700&display=swap');
+
 .container {
     height: 100%;
     background-color: #d1d1ec;
@@ -12,7 +14,7 @@
 .titulo {
     color: #0c005c;
     font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins' sans-serif;    
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
@@ -25,8 +27,12 @@
 }
 
 .resumo {
-    font-size: 18px;
-    width: 50%;
-    display: flex;
-    text-align: justify;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0.8rem;
+    border: 2px solid red;
+    max-width: 600px;
+    margin: 2rem auto;
+    font-family: 'Poppins' sans-serif;
+    font-size: 18px;    
 }

@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import { Inicial } from '../Paginas/Inicial'
-import { Autor } from '../Paginas/Autor';
+import { Autor } from "../Paginas/Autor";
 import { Curiosidades } from '../Paginas/Curiosidades';
 import { Conteudo } from '../Componentes/Conteudo';
 

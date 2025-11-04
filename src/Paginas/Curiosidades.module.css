@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&family=Quicksand:wght@300..700&display=swap');
+
+.container {
+    height: 100%;
+    background-color: #d1d1ec;
+    width: 100vw;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo {
+    color: #0c005c;
+    font-size: 30px;
+    font-family: 'Poppins' sans-serif; 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.curiosidade {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    margin: 15px;
+    gap: 1.5rem;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Poppins' sans-serif; 
+    font-size: 18px;
+}
+
+.lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: contents; 
+}
+
+.lista li {
+    text-align: center;
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.4rem;
+    margin: 3px;
+    padding: 0.6rem 0.8rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    font-size: 16px;
+    line-height: 1.3;
+    width: 700px;
+}
+
+.lista li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12);
+}
